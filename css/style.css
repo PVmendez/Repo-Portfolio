@@ -137,6 +137,7 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
+    
 }
 
 .navbar.nav-sticky {
