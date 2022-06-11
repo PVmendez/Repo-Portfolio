@@ -747,6 +747,11 @@ a:focus {
   color: #fff;
   margin-bottom: 5px;
 }
+
+.recent .card h5:hover {
+    text-decoration: underline;
+  }
+
 .recent .card p {
   font-size: 14px;
   color: #a7bea1;
@@ -763,18 +768,19 @@ a:focus {
 .recent .card:hover .card-img-overlay {
   background: -webkit-linear-gradient(
     rgba(0, 0, 0, 0.3),
-    #a7bea1
+    #95939b
   );
   background: -moz-linear-gradient(
     rgba(0, 0, 0, 0.3),
-    #a7bea1
+    #95939b
   );
-  background: linear-gradient(rgba(0, 0, 0, 0.3), #a7bea1);
-  background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), #a7bea1);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), #95939b);
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), #95939b);
 }
 .recent .card.active p,
 .recent .card:hover p {
-  color: #a7bea1;
+  color: #fff;
+  text-decoration: underline;
 }
 .recent .card-img-overlay {
   border-radius: 15px;
