@@ -31,11 +31,18 @@
       rel="stylesheet"
     />
 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Hero Start -->
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-light navbar-light">
       <div class="container-fluid">
@@ -67,29 +74,30 @@
       </div>
     </div>
     <!-- Nav Bar End -->
-
+    
     <!-- Hero Start -->
-    <div class="hero" id="home">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-sm-12 col-md-6">
-            <div class="hero-content">
-              <div class="hero-text">
-                <p>Yo soy</p>
-                <h1>Natalie Cederbaum</h1>
-                <h2></h2>
-                <div class="typed-text">Estudiante, Diseñadora, Periodista</div>
+    <section
+      class="hero d-flex justify-content-center align-items-center"
+      id="section_1"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-12">
+              <div class="hero-content">
+                <div class="hero-text">
+                  <p>Yo soy</p>
+                  <h1>Natalie Cederbaum</h1>
+                  <h2></h2>
+                  <div class="typed-text">Estudiante, Diseñadora, Periodista</div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 d-none d-md-block">
-            <div class="hero-image">
-              <img src="img/hero.png" alt="Hero Image" />
-            </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="overlay"></div>
+    </section>
+
     <!-- Hero End -->
 
     <!-- About Start -->
@@ -268,15 +276,19 @@
             <div class="owl-carousel owl-carousel2 owl-theme">
               <div>
                 <div class="card">
-                  <img class="card-img" src="img/recent-img1.jpg" alt=""/>
-                  
+                  <img class="card-img" src="img/recent-img1.jpg" alt="" />
+
                   <div class="card-img-overlay">
                     <a href="#"
                       ><img src="img/heart.png" class="heart" alt="heart icon"
                     /></a>
                     <div class="bottom-text">
-                      <a href="Articulo.html" class=""><h5 class="card-title">Lorem, ipsum.</h5></a>
-                      <a href="Articulo.html" class=""><p class="card-text">Lorem ipsum dolor sit.</p></a>
+                      <a href="Articulo.html" class=""
+                        ><h5 class="card-title">Lorem, ipsum.</h5></a
+                      >
+                      <a href="Articulo.html" class=""
+                        ><p class="card-text">Lorem ipsum dolor sit.</p></a
+                      >
                     </div>
                   </div>
                 </div>
@@ -447,6 +459,12 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <script src="js/popper.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/click-scroll.js"></script>
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>

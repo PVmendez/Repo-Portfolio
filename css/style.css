@@ -4,10 +4,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
 body {
   color: #797979;
   background: #ffffff;
-  font-family: "Oswald", sans-serif;
 }
 
 h1,
@@ -144,7 +149,7 @@ a:focus {
 /*********** Nav Bar CSS **********/
 /**********************************/
 .navbar {
-  position: relative;
+  position: relatiabve;
   transition: 0.5s;
   z-index: 999;
 }
@@ -262,28 +267,13 @@ a:focus {
   background-size: cover;
 }
 
-.hero .container-fluid {
-  padding: 0;
-}
+.hero .container {
+  margin: 21%;
 
-.hero .hero-image {
-  position: relative;
-  text-align: right;
-  padding-right: 75px;
-}
-
-.hero .hero-image img {
-  max-width: 80%;
-  max-height: 80%;
 }
 
 .hero .hero-content {
-  position: relative;
-  padding-left: 75px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
+  text-align: center;
 }
 
 .hero .hero-text p {
