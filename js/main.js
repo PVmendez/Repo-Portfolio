@@ -212,9 +212,9 @@ jQuery(document).ready(function(){
 
     // BACKSTRETCH SLIDESHOW
     $('#section_1').backstretch([
-      "img/microsoft-edge-FAaz8lkinzs-unsplash.jpg", 
-      "img/surface-1x5jnhtlp3Y-unsplash.jpg",
-      "img/surface-71_s6RDJpGc-unsplash.jpg"
+      "img/WEB/6.jpg", 
+      "img/WEB/Inerte - 06.jpg",
+      "img/WEB/IMG_2928.jpg"
     ],  {duration: 2000, fade: 750});
     
   })(window.jQuery);
