@@ -149,7 +149,7 @@ a:focus {
 /*********** Nav Bar CSS **********/
 /**********************************/
 .navbar {
-  position: relatiabve;
+  position: relative;
   transition: 0.5s;
   z-index: 999;
   margin: 0;
@@ -177,7 +177,7 @@ a:focus {
   margin-top: 0;
   border: 0;
   border-radius: 0;
-  background: #f8f9fa;
+  background: #000;
 }
 
 @media (min-width: 992px) {
@@ -196,7 +196,7 @@ a:focus {
   }
 
   .navbar .navbar-brand {
-    color: #ffffff;
+    color: #000;
   }
 
   .navbar.nav-sticky .navbar-brand {
@@ -206,19 +206,19 @@ a:focus {
   .navbar-light .navbar-nav .nav-link,
   .navbar-light .navbar-nav .nav-link:focus {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #000;
     font-size: 15px;
     font-weight: 500;
   }
 
   .navbar-light.nav-sticky .navbar-nav .nav-link,
   .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-    color: #fff;
+    color: #000;
   }
 
   .navbar-light .navbar-nav .nav-link:hover,
   .navbar-light .navbar-nav .nav-link.active {
-    color: #fff;
+    color: grey;
   }
 
   .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
@@ -275,14 +275,14 @@ a:focus {
 }
 
 .hero .hero-text p {
-  color: #ffffff;
+  color: #000;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
 .hero .hero-text h1 {
-  color: #ffffff;
+  color: #000;
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -293,7 +293,7 @@ a:focus {
   display: inline-block;
   margin: 0;
   height: 35px;
-  color: #ffffff;
+  color: #000;
   font-size: 35px;
   font-weight: 600;
 }
@@ -305,7 +305,7 @@ a:focus {
 .hero .hero-text .typed-cursor {
   font-size: 35px;
   font-weight: 300;
-  color: #ffffff;
+  color: #000;
 }
 
 .hero .hero-btn .btn {

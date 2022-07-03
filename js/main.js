@@ -212,9 +212,9 @@ jQuery(document).ready(function(){
 
     // BACKSTRETCH SLIDESHOW
     $('#section_1').backstretch([
-      "img/WEB/6.jpg", 
-      "img/WEB/Inerte - 06.jpg",
-      "img/WEB/IMG_2928.jpg"
+      "img/WEB/ANTIFASHION-657.jpg", 
+      "img/WEB/ANTIFASHION-834.jpg",
+      "img/WEB/PORTADA ANTIFASHION_compressed_page-0001.jpg"
     ],  {duration: 2000, fade: 750});
     
   })(window.jQuery);
