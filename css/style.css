@@ -256,7 +256,6 @@ a:focus {
 .hero {
   position: relative;
   width: 100%;
-  margin-bottom: 45px;
   padding: 120px 0 0 0;
   overflow: hidden;
   background: linear-gradient(#a7bea1, #a7bea1), url(../img/hero-bg.jpg);
@@ -465,79 +464,102 @@ a:focus {
 /*******************************/
 /********** About CSS **********/
 /*******************************/
-.about {
+
+.shop-local-section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-color: #a7bea1;
+}
+
+.shop-local-wrapper {
   position: relative;
-  width: 100%;
-  margin: -45px 0 45px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
-.about .col-lg-6 {
-  padding: 0;
+.shop-local-left {
+  position: absolute;
+  left: 0%;
+  top: 6%;
+  right: auto;
+  bottom: 0%;
+  width: 30%;
+  height: 0px;
+  min-height: 440px;
+  border-radius: 5px;
+  background-image: url("../img/about.png");
+  background-position: 69% 80%;
+  background-size: 270%;
 }
 
-.about .section-header {
-  margin-bottom: 30px;
+.shop-local-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  padding: 45px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-radius: 5px;
+  background-image: url('../img/aboutme.jpeg');
+  color: #fff;
 }
 
-.about .about-img {
-  position: relative;
-  height: 100%;
+.shop-local-content-wrapper {
+  width: 80%;
+  padding-right: 145px;
+  padding-left: 145px;
 }
 
-.about .about-img img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.shop-local-heading {
+  margin-top: 0px;
+  font-size: 45px;
+  line-height: 1.2;
 }
 
-.about .about-content {
-  padding: 0 60px;
+.shop-local-left {
+  top: 8%;
+}
+.shop-local-content-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.shop-local-heading {
+  margin-top: 0px;
 }
 
-.about .about-text p {
-  font-size: 16px;
-}
-
-.about .skills {
-  margin-bottom: 30px;
-}
-
-.about .skill-name {
-  margin-top: 15px;
-}
-
-.about .skill-name p {
-  display: inline-block;
-  margin-bottom: 5px;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.about .skill-name p:last-child {
-  float: right;
-}
-
-.about .progress {
-  height: 10px;
-  border-radius: 10px;
-  background: #dddddd;
-}
-
-.about .progress .progress-bar {
-  width: 0px;
-  background: #a7bea1;
-  border-radius: 10px;
-  transition: 2s;
-}
-
-.about .about-text a.btn {
-  margin-top: 15px;
-}
-
-@media (max-width: 991.98px) {
-  .about .about-content {
-    padding: 45px 15px 0 15px;
+@media screen and (max-width: 767px) {
+  .container.shop-local-container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .shop-local-wrapper {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .shop-local-left {
+    position: static;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .shop-local-right {
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 0px;
   }
 }
 
@@ -1361,7 +1383,6 @@ a:focus {
 .contact {
   position: relative;
   width: 100%;
-  margin: 45px 0;
   background: #a7bea1;
 }
 
