@@ -694,7 +694,7 @@ a:focus {
 }
 
 
-.card{
+.cards {
   background: #2f3542;
   padding: 0 20px;
   margin: 0 10px;
@@ -719,13 +719,13 @@ a:focus {
   transition: 0.3s linear;
 }
 
-.card:hover .card-icon{
+.cards:hover .card-icon{
   background: none;
   color: #a7bea1;
   transform: scale(1.6);
 }
 
-.card p{
+.cards p{
   margin-top: 20px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -734,7 +734,7 @@ a:focus {
   transition: 0.3s linear;
 }
 
-.card:hover p{
+.cards:hover p{
   max-height: 40px;
   opacity: 1;
 }
@@ -744,7 +744,7 @@ a:focus {
   .contact-info{
     flex-direction: column;
   }
-  .card{
+  .cards{
     width: 100%;
     max-width: 300px;
     margin: 10px 0;
