@@ -4,6 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
+:root {
+  --main-color: #c0bec6;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +36,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #a7bea1;
+  color: var(--main-color);
   outline: none;
   text-decoration: none;
 }
@@ -52,20 +56,20 @@ a:focus {
   font-weight: 600;
   letter-spacing: 1px;
   color: #ffffff;
-  background: #a7bea1;
+  background: var(--main-color);
   border: 2px solid transparent;
   border-radius: 0;
-  box-shadow: inset 0 0 0 50px #a7bea1;
+  box-shadow: inset 0 0 0 50px var(--main-color);
   transition: ease-out 0.3s;
   -webkit-transition: ease-out 0.3s;
   -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-  color: #a7bea1;
+  color: var(--main-color);
   background: transparent;
-  box-shadow: inset 0 0 0 0 #a7bea1;
-  border-color: #a7bea1;
+  box-shadow: inset 0 0 0 0 var(--main-color);
+  border-color: var(--main-color);
 }
 
 #loader {
@@ -99,7 +103,7 @@ a:focus {
   width: 45px;
   height: 45px;
   border: 5px solid #dddddd;
-  border-top: 5px solid #a7bea1;
+  border-top: 5px solid var(--main-color);
   border-radius: 50%;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
@@ -192,7 +196,7 @@ a:focus {
 
   .navbar.nav-sticky {
     padding: 10px 60px;
-    background: #a7bea1 !important;
+    background: var(--main-color) !important;
   }
 
   .navbar .navbar-brand {
@@ -200,7 +204,7 @@ a:focus {
   }
 
   .navbar.nav-sticky .navbar-brand {
-    color: #a7bea1;
+    color: var(--main-color);
   }
 
   .navbar-light .navbar-nav .nav-link,
@@ -223,7 +227,7 @@ a:focus {
 
   .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
   .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-    color: #a7bea1;
+    color: var(--main-color);
   }
 }
 
@@ -234,7 +238,7 @@ a:focus {
   }
 
   .navbar .navbar-brand {
-    color: #a7bea1;
+    color: var(--main-color);
   }
 
   .navbar .navbar-nav {
@@ -258,7 +262,7 @@ a:focus {
   width: 100%;
   padding: 120px 0 0 0;
   overflow: hidden;
-  background: linear-gradient(#a7bea1, #a7bea1), url(../img/hero-bg.jpg);
+  background: linear-gradient(var(--main-color), var(--main-color)), url(../img/hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,7 +313,7 @@ a:focus {
 
 .hero .hero-btn .btn {
   margin-top: 35px;
-  color: #a7bea1;
+  color: var(--main-color);
   background: #ffffff;
   box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -433,7 +437,7 @@ a:focus {
   top: 11px;
   right: 0;
   left: -30px;
-  background: #a7bea1;
+  background: var(--main-color);
   z-index: -1;
 }
 
@@ -444,7 +448,7 @@ a:focus {
   height: 3px;
   top: 11px;
   left: 3px;
-  background: #a7bea1;
+  background: var(--main-color);
   z-index: 1;
 }
 
@@ -472,11 +476,16 @@ a:focus {
 
 #aboutmeimg {
   width: 100%;
-  opacity: 30%;
+  opacity: 15%;
 }
 
 #aboutmetext {
   font-size: small;
+}
+
+#imgabout {
+  width: 80%;
+  border: 1px solid;
 }
 
 .superpuesto {
@@ -536,7 +545,7 @@ a:focus {
 	line-height: 40px;
 	border: none;
 	color: #fff;
-	background: #a7bea1;
+	background: var(--main-color);
 	border-radius: 3px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
@@ -546,7 +555,7 @@ a:focus {
 }
 
 .contenedor article .btn-abrir-popup:hover {
-	background: #a7bea1;
+	background: var(--main-color);
 }
 
 /* ------------------------- */
@@ -710,7 +719,7 @@ a:focus {
 
 .card-icon{
   font-size: 28px;
-  background: #a7bea1;
+  background: var(--main-color);
   width: 60px;
   height: 60px;
   text-align: center;
@@ -721,7 +730,7 @@ a:focus {
 
 .cards:hover .card-icon{
   background: none;
-  color: #a7bea1;
+  color: var(--main-color);
   transform: scale(1.6);
 }
 
@@ -762,7 +771,7 @@ a:focus {
 /*******************************/
 .footer {
   position: relative;
-  background: #a7bea1;
+  background: var(--main-color);
 }
 
 .footer .container-fluid {

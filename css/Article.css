@@ -1,13 +1,35 @@
 /*Portada*/
 
-.article-container-cover{
+.inerte {
   width: 100%;
   height: 500px;
   position: relative;
-  background-image: url(../img/WEB/image00002.jpeg);
+  background-image: url('../img/Articulos/Mundo Periodístico/Inerte - 05.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.sustentabilidad {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url('../img/Articulos/Mundo Periodístico/No\ hay\ diseño\ sin\ sustentabilidad\ 5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.humanos {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url('../img/Articulos/Mundo Periodístico/Separando\ al\ humano\ del\ diseñador\ 2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .article-container-cover:before{
@@ -90,9 +112,14 @@ article p{
 }
 
 article img{
-  width: 100%;
-  margin-top: 20px;
+  width: 400px;
+  height: 500px;
 }
+
+article .imagen1, .imagen3 {
+  text-align-last: end;
+}
+
 
 /*Aside de los articulos de relacionados*/
 
@@ -106,11 +133,13 @@ margin-left: 40px;
 margin-bottom: 40px;
 padding-bottom: 20px;
 background: #fff;
+border: 1px solid;
 
 }
 
 .container-aside aside img{
-  width: 100%;
+  width: 400px;
+  height: 500px;
 }
 
 .container-aside aside h2,
@@ -178,4 +207,30 @@ background: #fff;
       right: 20px;
   }
 
+}
+
+@media (max-width: 800px) {
+  .imagenes img {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .imagenes img {
+    width: 150px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .btnback img {
+    
+  }
+}
+
+.courv {
+  position: absolute;
+  height: 3rem;
+  width: 100%;
 }
