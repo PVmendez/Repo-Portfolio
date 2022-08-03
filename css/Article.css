@@ -32,6 +32,28 @@
   
 }
 
+.woman {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url('../img/wetransfer_made-by-a-woman-docx_2022-07-29_1813/MADE\ BY\ A\ WOMAN-118.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.verano {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url('../img/wetransfer_made-by-a-woman-docx_2022-07-29_1813/Verano\ 7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
 .article-container-cover:before{
   content: '';
   width: 100%;
