@@ -741,6 +741,7 @@ a:focus {
   max-height: 0;
   opacity: 0;
   transition: 0.3s linear;
+  color: #fff;
 }
 
 .cards:hover p{
