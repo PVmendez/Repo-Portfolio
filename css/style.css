@@ -329,6 +329,7 @@ a:focus {
   margin-right: 10px;
 }
 
+
 @media (max-width: 991.98px) {
   .hero {
     padding-top: 60px;
@@ -459,9 +460,74 @@ a:focus {
   font-weight: 700;
 }
 
+.contenedor2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor2 figure{
+ position:relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.contenedor2 figure img{
+  width: 100%;
+  height: 100%;
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+.contenedor2 figure .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 400ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+ text-align: center;
+}
+.contenedor2 figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.contenedor2 figure:hover > .capa h3{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.contenedor2 figure:hover > img{
+  transform: scale(1.3);
+}
+.contenedor2 figure .capa h3{
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 400ms ease-out;
+   margin-top: 30px;
+}
+.contenedor2 figure .capa p{
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
+.contactos {
+  color: #000;
+}
+
 @media (max-width: 767.98px) {
   .section-header h2 {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contactos {
+    font-size: 7px;
   }
 }
 
@@ -508,8 +574,14 @@ a:focus {
 }
 
 @media (min-width: 800px) {
-  .contenedor {
+  .contenedor { 
     display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  #aboutmeimg {
+    height: 500px;
   }
 }
 
