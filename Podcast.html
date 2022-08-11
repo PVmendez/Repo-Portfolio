@@ -1,208 +1,182 @@
 <!DOCTYPE html>
 <!-- Coding By CodingNepal - youtube.com/codingnepal -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS Libraries -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/podcast.css" rel="stylesheet" />
-  </head>
+  <!-- CSS Libraries -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
-  <body data-global-block-id="181992" id="">
-    <svg id="icon-defs" version="2.0" style="display: none">
-      <defs>
-        <symbol id="email" viewBox="0,0,2134,2134">
-          <g transform="translate(0,418)">
-            <path
-              d="M1145,-367 C1327,-367,1526,-286,1743,-123 C1983,105,2103,365,2103,658 C2103,999,1952,1284,1651,1513 C1471,1631,1278,1690,1072,1690 C698,1690,401,1519,180,1177 C87,1012,40,839,40,658 C40,326,184,47,473,-178 C631,-287,798,-350,974,-367 C974,-367,1145,-367,1145,-367Z M504,1025 C509,1066,530,1086,565,1086 C565,1086,1578,1086,1578,1086 C1619,1080,1639,1060,1639,1025 C1639,1025,1639,372,1639,372 C1639,347,1627,327,1603,310 C1603,310,540,310,540,310 C516,325,504,343,504,365 C504,365,504,1025,504,1025Z M559,1031 C559,1031,559,1019,559,1019 C559,1019,864,658,864,658 C832,621,734,525,571,372 C571,372,577,372,577,372 C616,398,738,498,943,671 C986,708,1029,743,1072,774 C1245,633,1402,503,1541,384 C1541,384,1548,396,1548,396 C1471,463,1382,550,1279,658 C1279,658,1578,1012,1578,1012 C1578,1012,1578,1025,1578,1025 C1578,1025,1236,689,1236,689 C1236,689,1230,689,1230,689 C1230,700,1177,755,1072,854 C1072,854,901,695,901,695 C789,812,675,924,559,1031Z"
-            />
-          </g>
-        </symbol>
-      </defs>
-    </svg>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/podcast.css" rel="stylesheet" />
+</head>
 
-    <!-- Nav Bar Start -->
-    <div class="navbar navbar-expand-lg bg-light navbar-light ">
-      <div class="container-fluid">
-        <a href="/" class="navbar-brand "><picture>
+<body data-global-block-id="181992" id="">
+  <svg id="icon-defs" version="2.0" style="display: none">
+    <defs>
+      <symbol id="email" viewBox="0,0,2134,2134">
+        <g transform="translate(0,418)">
+          <path
+            d="M1145,-367 C1327,-367,1526,-286,1743,-123 C1983,105,2103,365,2103,658 C2103,999,1952,1284,1651,1513 C1471,1631,1278,1690,1072,1690 C698,1690,401,1519,180,1177 C87,1012,40,839,40,658 C40,326,184,47,473,-178 C631,-287,798,-350,974,-367 C974,-367,1145,-367,1145,-367Z M504,1025 C509,1066,530,1086,565,1086 C565,1086,1578,1086,1578,1086 C1619,1080,1639,1060,1639,1025 C1639,1025,1639,372,1639,372 C1639,347,1627,327,1603,310 C1603,310,540,310,540,310 C516,325,504,343,504,365 C504,365,504,1025,504,1025Z M559,1031 C559,1031,559,1019,559,1019 C559,1019,864,658,864,658 C832,621,734,525,571,372 C571,372,577,372,577,372 C616,398,738,498,943,671 C986,708,1029,743,1072,774 C1245,633,1402,503,1541,384 C1541,384,1548,396,1548,396 C1471,463,1382,550,1279,658 C1279,658,1578,1012,1578,1012 C1578,1012,1578,1025,1578,1025 C1578,1025,1236,689,1236,689 C1236,689,1230,689,1230,689 C1230,700,1177,755,1072,854 C1072,854,901,695,901,695 C789,812,675,924,559,1031Z" />
+        </g>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- Nav Bar Start -->
+  <div class="navbar navbar-expand-lg bg-light navbar-light ">
+    <div class="container-fluid">
+      <a href="/" class="navbar-brand ">
+        <picture>
           <source srcset="img/logoBlack.png" media="(max-width: 991px)">
           <img src="img/LogoWhite.png" alt="">
-        </picture></a>
-        <button
-          type="button"
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        </picture>
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div
-          class="collapse navbar-collapse justify-content-between"
-          id="navbarCollapse"
-        >
-          <div class="navbar-nav ml-auto">
-            <a href="/index.html" class="nav-item nav-link">Home</a>
-            <a href="#aboutme" class="nav-item nav-link">About me</a>
-            <a href="/Podcast.html" class="nav-item nav-link">Podcasts</a>
-            <a href="/MundoPeriodistico.html" class="nav-item nav-link">Mundo Periodistico</a>
-            <a href="Tendencias.html" class="nav-item nav-link"
-              >Tendencias X Nat</a
-            >
-            <a href="/Films.html" class="nav-item nav-link">Films</a>
-            <a href="#contactme" class="nav-item nav-link">Contact Me</a>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav ml-auto">
+          <a href="/index.html" class="nav-item nav-link">Home</a>
+          <a href="#aboutme" class="nav-item nav-link">About me</a>
+          <a href="/Podcast.html" class="nav-item nav-link">Podcasts</a>
+          <a href="/MundoPeriodistico.html" class="nav-item nav-link">Mundo Periodistico</a>
+          <a href="Tendencias.html" class="nav-item nav-link">Tendencias X Nat</a>
+          <a href="/Films.html" class="nav-item nav-link">Films</a>
+          <a href="#contactme" class="nav-item nav-link">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Nav Bar End -->
+
+  <!-- Hero Start -->
+  <section class="hero d-flex justify-content-center align-items-center" id="section_1">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-12">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1>Podcasts</h1>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Nav Bar End -->
+    <div class="overlay"></div>
+  </section>
+  <!-- Hero End -->
 
-    <!-- Hero Start -->
-    <section
-      class="hero d-flex justify-content-center align-items-center"
-      id="section_1"
-    >
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 col-12">
-            <div class="hero-content">
-              <div class="hero-text">
-                <h1>Podcasts</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="overlay"></div>
-    </section>
-    <!-- Hero End -->
-
-    <!-- Podcast Start -->
-    <section id="podcast">
-      <div class="container mt-5 mb-5">
-        <div class="row align-items-center justify-content-center text-center">
-          <div class="col-lg-6 col-md-8">
-            <h1>Podcasts</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              fuga tempore culpa voluptates eveniet possimus atque, quo qui
-              itaque molestiae illum, adipisci fugiat modi, ipsa est repellat
-              sint corporis? A?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              aperiam quos, iure velit dolorum nobis laborum. Ipsam libero atque
-              tenetur, quod itaque ad? Eligendi magnam ipsa dicta, ullam sequi
-              at.
-            </p>
-          </div>
-          <div class="col-lg-6 col-md-8">
-            <div class="wrapper">
-              <div class="top-bar">
-                <i class="material-icons">expand_more</i>
-                <span>Now Playing</span>
-                <i class="material-icons">more_horiz</i>
-              </div>
-              <div class="img-area">
-                <img src="" alt="" />
-              </div>
-              <div class="song-details">
-                <p class="name"></p>
-                <p class="artist"></p>
-              </div>
-              <div class="progress-area">
-                <div class="progress-bar">
-                  <audio id="main-audio" src=""></audio>
-                </div>
-                <div class="song-timer">
-                  <span class="current-time">0:00</span>
-                  <span class="max-duration">0:00</span>
-                </div>
-              </div>
-              <div class="controls">
-                <i
-                  id="repeat-plist"
-                  class="material-icons"
-                  title="Playlist looped"
-                  >repeat</i
-                >
-                <i id="prev" class="material-icons">skip_previous</i>
-                <div class="play-pause">
-                  <i class="material-icons play">play_arrow</i>
-                </div>
-                <i id="next" class="material-icons">skip_next</i>
-                <i id="more-music" class="material-icons">queue_music</i>
-              </div>
-              <div class="music-list">
-                <div class="header">
-                  <div class="row">
-                    <i class="list material-icons">queue_music</i>
-                    <span>Music list</span>
-                  </div>
-                  <i id="close" class="material-icons">close</i>
-                </div>
-                <ul>
-                  <!-- here li list are coming from js -->
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img class="svg-border-rounded courv"  src="img/courv.svg" alt="">
-    </section>
-    <!-- Podcast End -->
-
-    <!-- Footer Start -->
-    <div class="footer wow fadeIn" style="margin-top: 6rem;" data-wow-delay="0.3s">
-      <div class="container-fluid">
-        <div class="container">
-          <div class="footer-info">
-            <h3>Montevideo, Uruguay</h3>
-            <div class="footer-menu">
-            <p>+598 8852749</p>
-            <p>naticederbaum@gmail.com</p>
-            </div>
-          </div>
-        </div>
-        <div class="container copyright">
+  <!-- Podcast Start -->
+  <section id="podcast">
+    <div class="container mt-5 mb-5">
+      <div class="row align-items-center justify-content-center text-center">
+        <div class="col-lg-6 col-md-8">
+          <h1>Podcasts</h1>
           <p>
-            &copy; <a href="#">Portfolio</a>, All Right Reserved | Designed By
-            ...
+            LORA es un laboratorio de tendencias, historia y actualidad. Donde se almacenan datos, opiniones y hechos
+            que son analizados y posteriormente comunicados.
+            A través de una mirada crítica del mundo de la moda local, LORA llega para entretener a los oyentes y poner
+            sobre la mesa diversas cuestiones. Algunas polémicas, otras no tanto.
+            LORA propone un nuevo periodismo a partir de críticas e información fundamentada.
           </p>
         </div>
+        <div class="col-lg-6 col-md-8">
+          <div class="wrapper">
+            <div class="top-bar">
+              <i class="material-icons">expand_more</i>
+              <span>Now Playing</span>
+              <i class="material-icons">more_horiz</i>
+            </div>
+            <div class="img-area">
+              <img src="" alt="" />
+            </div>
+            <div class="song-details">
+              <p class="name"></p>
+              <p class="artist"></p>
+            </div>
+            <div class="progress-area">
+              <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+              </div>
+              <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+              </div>
+            </div>
+            <div class="controls">
+              <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+              <i id="prev" class="material-icons">skip_previous</i>
+              <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+              </div>
+              <i id="next" class="material-icons">skip_next</i>
+              <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <div class="music-list">
+              <div class="header">
+                <div class="row">
+                  <i class="list material-icons">queue_music</i>
+                  <span>Music list</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+              </div>
+              <ul>
+                <!-- here li list are coming from js -->
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- Footer End -->
+    <img class="svg-border-rounded courv" src="img/courv.svg" alt="">
+  </section>
+  <!-- Podcast End -->
 
-    <!-- Back to top button -->
-    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Footer Start -->
+  <div class="footer wow fadeIn" style="margin-top: 6rem;" data-wow-delay="0.3s">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="footer-info">
+          <h3>Montevideo, Uruguay</h3>
+          <div class="footer-menu">
+            <p>+598 8852749</p>
+            <p>naticederbaum@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <p>
+          &copy; <a href="#">Portfolio</a>, All Right Reserved | Designed By
+          ...
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Back to top button -->
+  <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-    <!-- JavaScript -->
-    <script src="js/music-list.js"></script>
-    <script src="js/podcast.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="js/music-list.js"></script>
+  <script src="js/podcast.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

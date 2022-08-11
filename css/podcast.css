@@ -233,3 +233,12 @@ ul li.playing{
   color: var(--violet);
 }
 
+@media (max-width: 270px) {
+  .controls #next {
+    display: none;
+  } 
+
+  .controls #prev {
+    display: none;
+  }
+}
